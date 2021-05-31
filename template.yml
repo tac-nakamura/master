@@ -6,9 +6,11 @@ Transform:
 Parameters:
   ProjectId:
     Type: String
+    Default: nakamuraproject
     Description: CodeStar projectId used to associate new resources to team members
   CodeDeployRole:
     Type: String
+    Default: arn:aws:iam::776395016667:role/CloudFormation_TAC
     Description: IAM role to allow AWS CodeDeploy to manage deployment of AWS Lambda functions
   Stage:
     Type: String
